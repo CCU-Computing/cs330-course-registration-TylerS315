@@ -1,6 +1,7 @@
 ﻿using System;
 using cs330_proj1;
 using System.Collections.Generic;
+using System.Data;
 
 namespace cs330courses
 {
@@ -9,6 +10,7 @@ namespace cs330courses
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("My name is Tyler");
             
             CourseServices service = new CourseServices();
 
